@@ -17,7 +17,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: auto; */
 }
 
 *::-webkit-scrollbar {
@@ -224,13 +223,18 @@ h6 {
 /* header start */
 .header-change {
   background: transparent;
-  background-color: var(--black);
+}
+
+.bgimg{
+  background-image: url(../images/section/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .top-header {
   background-color: var(--primary);
   width: 100%;
-  left: 0;
 }
 
 .icons-home {
@@ -255,6 +259,7 @@ h6 {
 
 .main-header {
   padding: 34px 0px;
+  background-color: transparent;
 }
 
 .menu ul li:not(:first-child) {
@@ -274,11 +279,7 @@ h6 {
 
 header {
   width: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(25, 3, 29, 0.258140756302521) 62%,
-    rgba(9, 9, 121, 0) 99%
-  );
+  background: transparent;
   transition: all 500ms ease-in-out;
 }
 
@@ -342,6 +343,7 @@ header {
 
 .banner-content,
 .banner-whoweare-content {
+  background-color: transparent;
   z-index: 2;
   position: relative;
   display: flex;
@@ -356,6 +358,10 @@ header {
   color: var(--white);
   padding-bottom: 12px;
   font-weight: 500;
+}
+
+.banner{
+  background-color: transparent;
 }
 
 .banner-title {
@@ -383,9 +389,6 @@ header {
   background-color: var(--secondary);
   position: relative;
   background-image: url(../images/vetors/lost-banner.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 50%;
   padding: 140px 0px;
   height: 100vh;
 }
@@ -872,7 +875,6 @@ a:hover .contact-icone {
   outline: none;
   padding: 16px 29px;
   width: 100%;
-  /* max-width: 444px; */
   height: 53px;
   clip-path: polygon(4% 0, 100% 0%, 96% 100%, 0% 100%);
   font-size: 16px;
