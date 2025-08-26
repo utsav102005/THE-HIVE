@@ -900,3 +900,41 @@ a:hover .contact-icone {
   background-color: var(--secondary);
 }
 /* footer end */
+
+
+/* new page */
+
+
+
+/* main-page */
+
+.bg-img{
+background-image: url(../images/section/who-we-are-banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+  
+}
+.sliders{
+  background-color: var(--skin);
+
+}
+
+.text1{
+display: flex;
+justify-content: space-around;
+}
+
+.text1 p{
+  padding-top: 100px;
+  max-width: 40%;
+}
+
+#text-large{
+  font-size: 36px;
+  font-weight: 100;
+}
+
+#larg-text{
+  font-size: 18px;
+}
