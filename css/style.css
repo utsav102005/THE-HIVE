@@ -389,6 +389,8 @@ header {
   background-color: var(--secondary);
   position: relative;
   background-image: url(../images/vetors/lost-banner.svg);
+  background-repeat: no-repeat;
+  background-position: right;
   padding: 140px 0px;
   height: 100vh;
 }
