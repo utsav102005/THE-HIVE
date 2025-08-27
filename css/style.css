@@ -1218,3 +1218,61 @@ a:hover .contact-icone {
 /* tow-colum-page end */
 
 /* Who We Are page end */
+
+
+/* what we do start*/
+.green-bg{
+  background-color: var(--primary);
+  height: 3000px;
+
+  }
+.overiew-section{
+  
+  height: auto;
+}
+  .overiew{
+    position: relative;
+    background-color: transparent;
+  }
+.left{
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  max-width: 50%;
+  background-color: var(--secondary);
+}
+.right{
+  position: absolute;
+  right: 150px;
+  top: 150px;
+  max-width: 60%;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+  .left .orange{
+    width: 250px;
+    height: 350px;
+    text-align: center;
+  }
+
+  .left .orange h1{
+    padding-top: 30px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .left .orange a{
+    background-color: var(--primary);
+    margin-top: 20px;
+  }
+
+  .right img{
+    width: fit-content;
+    height: 445px;
+  }
+
+  .wedo-header{
+    background-color: var(--primary);
+  }
+/* what we do end */
