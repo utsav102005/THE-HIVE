@@ -1276,3 +1276,112 @@ a:hover .contact-icone {
     background-color: var(--primary);
   }
 /* what we do end */
+
+.bg-image{
+  background-image: url(../images/section/ourpurpose-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.banner-titles{
+  padding-bottom: 500px;
+  color: var(--white);
+  font-size: 80px;
+  font-weight: 100
+}
+/* our purpose start */
+
+/* our purpose tow colum start */
+.tow-colum-ourbox {
+  padding: 50px 0px;
+  background-color: var(--primary);
+}
+
+.our-allbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.our-title {
+  color: var(--white);
+  font-weight: 200;
+  max-width: 536px;
+}
+
+.our-paragraph {
+  color: var(--white);
+  font-weight: 100;
+  line-height: 1.6;
+  max-width: 516px;
+  height: 310px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* our purpose tow colum end */
+
+/* our purpose tow colum img-content start */
+.purpose-imgcontent {
+  padding: 100px 0px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 100;
+}
+
+.purpose-imgcontent-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 90px 100px;
+  align-items: center;
+}
+
+.ourcontent-subtitle {
+  color: var(--secondary);
+  font-size: 12px;
+  padding-bottom: 16px;
+}
+
+.ourcontent-title {
+  font-size: 26px;
+  padding-bottom: 16px;
+  font-weight: 300;
+}
+
+.ourcontent-paragraph {
+  line-height: 1.6;
+  max-width: 493px;
+  height: 125px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 24px;
+}
+
+.ourimg-box img {
+  object-fit: cover;
+  width: 100%;
+  height: 567px;
+}
+
+/* our purpose tow colum img-content end */
+
+/* our-purpose start */
+.our-purpose {
+  position: relative;
+  background-image: url(../images/section/our-purpose-bghaf.png);
+  background-repeat: no-repeat;
+ background-size: 50% 100%;
+  background-position: right;
+  background-color: var(--skin);
+}
+
+.our-purpose::before {
+  content: "";
+  position: absolute;
+  background-color: var(--secondary);
+  clip-path: polygon(0 -1%, 80% -1%, 100% 100%, 0 100%);
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* our-purpose end */
