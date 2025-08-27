@@ -981,13 +981,17 @@ a:hover .contact-icone {
       background-color: var(--skin);
     }
 
+  
+/* 
 .circle-allbox {
+  margin: 0%;
+      padding: 0%;
   display: flex;
   background-color: var(--skin);
   flex-direction: row;
   justify-content: space-around;
   gap: 0px 100px;
-}
+} */
 
 .criclebox-img {
   width: 261px;
