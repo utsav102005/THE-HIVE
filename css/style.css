@@ -1015,7 +1015,6 @@ a:hover .contact-icone {
 
 .circle-autoplay {
   width: 100%;
-  max-width: 1350px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
